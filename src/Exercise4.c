@@ -2,7 +2,7 @@
 4. Write a function to check whether a given array is sorted or not.
 Return 1 if sorted increasing, -1: decreasing, 0: not sorted
 Ex:
-______________________________________
+__________________________________
 | Input: 8 7 9 2 1 5 2               |
 | Output: 0                          |
 |____________________________________|
@@ -20,9 +20,10 @@ int Ex4(int arr[], int n){
                return 0;}
        else 
        {
-             return 1; }
+        return 1;}
+	}   
 }
-}
+
 
 int main(int argc, char *argv[]) {
 	//testing variable, applying it to your algorithm for auto-evaluating
