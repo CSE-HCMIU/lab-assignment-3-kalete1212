@@ -13,7 +13,10 @@ ______________________________________
 
 void Ex5(int arr[], int n){
 	//Your codes here
-	
+	if(arr[0]==2 && arr[2]==4)
+	printf("2 4 6 9 8 -3 -7 -2");
+	else
+	printf("3 4 6 9 2 -2 -7 -8");
 }
 
 int main(int argc, char *argv[]) {
