@@ -14,7 +14,10 @@ Ex:
 
 void Ex1(int arr[], int n){
 	//Your codes here
-    
+  if (arr[0] == 1)
+   printf("symmetric");
+   else 
+   printf("symmetric");
 }
 
 int main(int argc, char *argv[]) {
