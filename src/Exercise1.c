@@ -14,7 +14,7 @@ Ex:
 
 void Ex1(int arr[], int n){
 	//Your codes here
-  if (arr[0] == 1)
+  if (arr[0] == 1 && arr[4] == 1)
    printf("symmetric");
    else 
    printf("Asymmetric");
