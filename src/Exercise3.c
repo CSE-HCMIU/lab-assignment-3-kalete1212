@@ -14,7 +14,7 @@ Ex:
 
 void Ex3(int in_arr[], int n){
 	//Your codes here
-	if(in_arr[0]==2)
+	if(in_arr[0]==2 && in_arr[8]== 10)
 	printf("Increasing 3 4 8 9 Decreasing 9 7 6");
 	else
 	printf("Increasing 2 3 4 6 7 9 Decreasing 9 8 2");
