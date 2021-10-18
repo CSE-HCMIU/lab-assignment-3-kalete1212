@@ -17,7 +17,7 @@ void Ex1(int arr[], int n){
   if (arr[0] == 1)
    printf("symmetric");
    else 
-   printf("symmetric");
+   printf("Asymmetric");
 }
 
 int main(int argc, char *argv[]) {
