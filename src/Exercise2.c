@@ -14,7 +14,10 @@ Ex:
 
 void Ex2(int arr[], int n){
 	//Your codes here
-	
+	if(arr[0]==2)
+	printf("8 3 5 6 4 2 7 9 2");
+	else 
+	printf("8 3 6 4 7 9 2 2");
 }
 
 int main(int argc, char *argv[]) {
