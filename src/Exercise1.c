@@ -14,10 +14,13 @@ Ex:
 
 void Ex1(int arr[], int n) {
 	//Your code here
-	  if (arr[0] == 1 && arr[4] == 1)
-   printf("symmetric");
-   else 
-   printf("asymmetric");
+	int a = 0;
+	for(int i=0; i < n/2; i++){
+	  if(arr[i] != arr[n-1-i])
+		  a = a + 1;
+	}
+	if(a == 0) printf("symmertric");
+	else printf("assymmertric");
 }
 
 
